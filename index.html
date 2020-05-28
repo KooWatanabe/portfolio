@@ -2,11 +2,252 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="koki" content="protfolio">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example Portfolio</title>
+    <title>Koki's Portfolio</title>
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Hello GitHub.io !</h1>
+	<header id="header">
+		<h1 class="hed">Koki's Web Engineer Portfolio</h1>	
+	</header><!-- /header -->
+	<nav>
+		<div>
+			<ul>
+				<li><a href="#profile-section" title="profile">Profile</a></li>
+				<li><a href="#skills-section" title="skills">Skills</a></li>
+				<li><a href="#work-section" title="works">Work Introduction</a></li>
+			</ul>
+		</div>
+	</nav>
+ 	<main id="main">
+ 		<section id="profile-section" class="section">
+	 		<div class="section-title">
+		 		<h2 class="profile">Profile</h2>
+		 	</div>
+		 	<div class="section-contents">
+		    	<p class="proflie-text">
+			    	はじめまして。私のポートフォリオをご覧いただきありがとうございます。<br>
+			    	私は1993年生まれのエンジニア歴3年目のkokiと申します。<br>社会人歴は5年目になり不動産営業からエンジニアに転身しました。現在はSESの会社に勤務しており、お客様先でWebアプリケーションの開発に携わっております。BtoCのWebアプリケーションのフロントとサーバーサイドの分担がない一人が画面単位の開発を担当するような開発チームにいました。が現在は関西に転勤し業務系のWebアプリケーションの開発に携わることが多いです。<br>言語はスクリプト言語が好きで特にPythonは現場でも使っていたこともあり得意な言語です。<br>今後はRubyを勉強していきたいです！！<br>まだまだエンジニアとしては未熟者なのでWebアプリケーション開発のための勉強を日夜励んでおります。
+		    	</p>
+	    	</div>
+	    </section>
+	    <section id="skills-section" class="section">
+	    	<div class="section-title">
+	    		<h2 class="skills">Skills</h2>
+	    	</div>
+	    	<div class="section-contents">
+	    		<div class="type">
+	    			<h3 class="skill-title">フロントエンド</h3>
+	    			<p class="explanation">
+	    				基本的なことは出来ます。デザインよりもjsを利用した開発が得意です
+	    			</p>
+		    		<table border="1">
+		    			<thead>
+		    				<tr>
+		    					<th class="skill">技術</th>
+		    					<th class="year">経験年数</th>
+		    					<th class="level">熟練度</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr>
+		    					<td>HTML</td>
+		    					<td>2年</td>
+		    					<td>調べながらweb作成可能</td>
+		    				</tr>
+		    				<tr>
+		    					<td>css/scss</td>
+		    					<td>2年</td>
+		    					<td>調べながらwebデザイン可能</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Javascript</td>
+		    					<td>2年</td>
+		    					<td>webアプリケーションを作成するための技術あり</td>
+		    				</tr>
+		    				<tr>
+		    					<td>jquery</td>
+		    					<td>2年</td>
+		    					<td>非同期処理などに利用することが多い（デザイン面で使うことは少ない）</td>
+		    				</tr>
+		    				<tr>
+		    					<td>TypeScript(Angular)</td>
+		    					<td>半年</td>
+		    					<td>SPAのwebを一度作成したことあり</td>
+		    				</tr>
+		    			</tbody>
+		    		</table>
+	    		</div>
+	    		<div class="type">
+	    			<h3 class="skill-title">バックエンド</h3>
+	    			<p class="explanation">
+	    				Djangoを用いた開発が得意です
+	    			</p>
+		    		<table border="1">
+		    			<thead>
+		    				<tr>
+		    					<th class="skill">技術</th>
+		    					<th class="year">経験年数</th>
+		    					<th class="level">熟練度</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr>
+		    					<td>Python2,3</td>
+		    					<td>2年</td>
+		    					<td>API作成からユニットテストまで出来ます</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Django</td>
+		    					<td>2年</td>
+		    					<td>1からWebアプリケーション開発できます</td>
+		    				</tr>
+		    				<tr>
+		    					<td>PHP7</td>
+		    					<td>半年</td>
+		    					<td>基礎構文の理解あり、自作でブログアプリ作成</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Java</td>
+		    					<td>1年</td>
+		    					<td>あまり好きではないですが、調べながらであれば開発出来ます</td>
+		    				</tr>
+		    			</tbody>
+		    		</table>
+	    		</div>
+	    		<div class="type">
+	    			<h3 class="skill-title">データベース</h3>
+	    			<p class="explanation">
+	    				RDBMSであれば一通りできます。データの洗い出しや調査も行ったことがあります
+	    			</p>
+		    		<table border="1">
+		    			<thead>
+		    				<tr>
+		    					<th class="skill">技術</th>
+		    					<th class="year">経験年数</th>
+		    					<th class="level">熟練度</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr>
+		    					<td>MySQL</td>
+		    					<td>2年</td>
+		    					<td>一通りできます</td>
+		    				</tr>
+		    				<tr>
+		    					<td>MongoDB</td>
+		    					<td>2年</td>
+		    					<td>Djangoで開発していたときにpyMongoを利用していました</td>
+		    				</tr>
+		    				<tr>
+		    					<td>postgreSQL</td>
+		    					<td>半年</td>
+		    					<td>一通り出来ます</td>
+		    				</tr>
+		    			</tbody>
+		    		</table>
+	    		</div>
+	    		<div class="type">
+	    			<h3 class="skill-title">インフラ</h3>
+	    			<p class="explanation">
+	    				Djangoで開発を行っていた際に利用していたAWSに少し知識があります
+	    			</p>
+		    		<table border="1">
+		    			<thead>
+		    				<tr>
+		    					<th class="skill">技術</th>
+		    					<th class="year">経験年数</th>
+		    					<th class="level">熟練度</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr>
+		    					<td>AWS</td>
+		    					<td>2年</td>
+		    					<td>IAM,ロードバランサー,インスタンスの作成等</td>
+		    				</tr>
+		    			</tbody>
+		    		</table>
+	    		</div>
+	    		<div class="type">
+	    			<h3 class="skill-title">その他</h3>
+	    			<p class="explanation">
+	    				今まで利用してきたツール等
+	    			</p>
+		    		<table border="1">
+		    			<thead>
+		    				<tr>
+		    					<th class="skill">技術</th>
+		    					<th class="year">経験年数</th>
+		    					<th class="level">熟練度</th>
+		    				</tr>
+		    			</thead>
+		    			<tbody>
+		    				<tr>
+		    					<td>Linux</td>
+		    					<td>2年</td>
+		    					<td>コマンドは利用可能</td>
+		    				</tr>
+		    				<tr>
+		    					<td>PyCharm</td>
+		    					<td>2年</td>
+		    					<td>リモート設定からリモートに接続してデバックまで一通りの操作可能</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Redmine</td>
+		    					<td>2年</td>
+		    					<td>現場で利用、タスク管理やお客様との作業共有</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Git/Github</td>
+		    					<td>2年</td>
+		    					<td>現場でソースを管理していたため一通りの操作可能</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Slack</td>
+		    					<td>2年</td>
+		    					<td>現場で利用していた</td>
+		    				</tr>
+		    				<tr>
+		    					<td>Chatwork</td>
+		    					<td>2年</td>
+		    					<td>自社で利用</td>
+		    				</tr>
+		    				<tr>
+		    					<td>VB（エクセルマクロ）</td>
+		    					<td>半年</td>
+		    					<td>現場ツールの作成等</td>
+		    				</tr>
+		    			</tbody>
+		    		</table>
+	    		</div>
+	    	</div>
+	    </section>
+	    <section id="work-section" class="section">
+	 		<div class="section-title">
+		 		<h2 class="Work">Work Introduction</h2>
+		 	</div>
+		 	<div class="section-contents">
+	    		<ul>
+			    	<li class="work-list">
+			    		<a href="https://github.com/KooWatanabe/Django_Chatbot">ChatApp</a>
+			    		<p class="work-text">Django/Javascriptを用いたチャットアプリ。今後SPAにしていきます</p>
+			    	</li>
+			    	<li class="work-list">
+			    		<a href="https://github.com/KooWatanabe/Mini-Blog">MiniBlog</a>
+			    		<p class="work-text">PHPの書籍を参考に作成、今後新たな機能とデザインを追加していきます</p>
+			    	</li>
+			    	<li class="work-list">
+			    		<a href="https://github.com/KooWatanabe/portfolio">Protfolio</a>
+			    		<p class="work-text">当サイト。今後もっとデザインをつけていきます</p>
+			    	</li>
+			    	<p class="work-text">
+			    		上記は作品のGithubです。※ 現在進行系で開発中です。
+		    		</p>
+	    		</ul>
+	    	</div>
+	    </section>
+ 	</main>
 </body>
 </html>

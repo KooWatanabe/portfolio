@@ -1,0 +1,95 @@
+nav div{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+nav li{
+	list-style: none;
+	float: left;
+	margin: 0 30px;
+	font-size: 20px;
+}
+.work-list{
+	list-style: none;
+	font-size: 20px;
+}
+li a{
+	color: black;
+}
+li a:hover{
+	color: blue;
+}
+main{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px
+}
+h2{
+	margin: 0;
+	padding: 20px 10px;
+}
+a{
+	text-decoration: none;
+}
+
+.work-text{
+	margin: 0 0 5px 20px;
+	font-size: 16px
+}
+
+.type{
+/*	box-shadow: 3px 3px 6px -2px #555,
+  3px 3px 8px rgba(255,255,255,0.8) inset;
+  background-color: #F8F8FF*/
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #d1d5da;
+  border-top: 1px solid #d1d5da;
+}
+.work-text{
+	margin: 0;
+	padding: 5px 10px
+}
+.section{
+	border: solid 2px #c8e1ff;
+	margin-bottom: 20px;
+}
+.section-title{
+	border-bottom: solid 2px #c8e1ff;
+	background-color: #f1f8ff;
+}
+.proflie-text{
+	margin: 0;
+	padding: 5px 10px;
+	background-color: #FFFFFF;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+
+.section-contents ul{
+	margin: 0;
+	padding: 20px 0 0 16px;
+	background-color: #FFFFFF;
+}
+
+.skill{
+	width: 17%
+}
+.year{
+	width: 10%;
+}
+.level{
+	width: 72%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th, table td {
+  border: solid 1px #F8F8FF;
+}
+table th{
+	text-align: left;
+}
